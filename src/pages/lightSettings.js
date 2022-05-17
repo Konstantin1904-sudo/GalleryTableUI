@@ -6,16 +6,30 @@ import {
     defaultButton,
     buttonText,
     buttonIcon,
-    wrapperLight
+    wrapperLight,
+    sliderWrapper
 } from '../components/layout.module.css'
 
 import lowIcon from '../assets/low.svg'
 import mediumIcon from '../assets/medium.svg'
 import highIcon from '../assets/high.svg'
 import backArrow from '../assets/backArrow.svg'
-import backgroundLight from '../assets/Light.png'
+import brighntess from '../assets/Brightness.svg'
 
+import Slider from '@mui/material/Slider';
 
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+
+const theme = createTheme({
+    status: {
+      danger: '#e53e3e',
+    },
+    palette: {
+      primary: {
+          main: '#98CA97',
+      }
+    },
+  });
 
 
 
@@ -40,8 +54,16 @@ const lightSettingsPage = () => {
                         <span className={buttonText}>Movie setup</span>
                     </button>
                 </div>
-                <div>
-                    Slider Placeholder
+                <div className={sliderWrapper}>
+                    <ThemeProvider theme={theme}>
+                        <Slider
+                            color = 'primary'
+                            orientation = 'vertical'
+                            size = 'large'
+                            defaultValue = {40}
+                        />
+                    </ThemeProvider>
+                    <img src = {brighntess} alt = "Load failed" width="150" height="150" className={buttonIcon}/>
                 </div>
             </div>
         </main>
