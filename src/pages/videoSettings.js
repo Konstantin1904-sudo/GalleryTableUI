@@ -8,7 +8,7 @@ import {
     defaultButton,
     buttonText,
     buttonIcon,
-    wrapperSoundBackground,
+    wrapperVideoBackground,
     nonSliderPage,
     switchWrapper,
     switchButton,
@@ -43,7 +43,7 @@ const theme = createTheme({
 
 const soundSettingsPage = () => {
     return(
-        <main className={wrapperSoundBackground}>
+        <main className={wrapperVideoBackground}>
             <title>SoundSettings</title>
             <Link to="/"><img src = {arrowToGoBack} alt = "Load failed"  height="100" className={arrow}/></Link>
             <div className={nonSliderPage}>

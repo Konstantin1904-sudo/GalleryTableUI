@@ -51,6 +51,19 @@
 }
 
 .wrapperSoundBackground{
+    background-image: url("../assets/Sound.png");
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* making it 100% of the total width and height */ 
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapperVideoBackgroound{
     background-image: url("../assets/Video.png");
 
 
@@ -67,13 +80,13 @@
     display: flex;
     flex-direction: column;
 
-    width: 700px;
+    width: 1200px;
     height: 800px;
     font-familiy: teleNeo;
 
     justify-content: space-around;
 
-
+    padding-right: 500px;
 
 
 }
@@ -164,5 +177,19 @@
 
     padding: 30px;
 
+
+}
+
+.sliderButton{
+
+    border: none;
+
+    background-color: transparent;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
 
 }
