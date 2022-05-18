@@ -35,6 +35,7 @@
     flex-direction: column;
 
 
+
 }
 
 .wrapperLightBackground{
@@ -63,8 +64,21 @@
     width: 100vw;
 }
 
-.wrapperVideoBackgroound{
+.wrapperVideoBackground{
     background-image: url("../assets/Video.png");
+
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* making it 100% of the total width and height */ 
+    height: 100vh;
+    width: 100vw;
+}
+
+.wrapperBlindsBackground{
+    background-image: url("../assets/Blinds.png");
 
 
     background-position: center;
@@ -191,5 +205,18 @@
     flex-direction: row;
 
     justify-content: center;
+
+}
+
+.blindsWrapper{
+
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    justify-content: space-evenly;
+
+    width: 100vw;
+    height: 1500px;
 
 }
