@@ -1,3 +1,9 @@
+:root{
+    --welcomeHeight: 850px;
+    --welcomeWidth: 950px;
+}
+
+
 .link {
     margin: auto;
     
@@ -27,14 +33,14 @@
 }
 
 .welcomeLight{
-    background-image: url("../assets/LightButton.svg");
+    background-image: url("../assets/LightButtonFull.svg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 
-    height: 1056px;
-    width: 1056px;
+    height: var(--welcomeHeight);
+    width: var(--welcomeWidth);
 }
 .welcomeVideo{
     background-image: url("../assets/VideoButton.svg");
@@ -43,30 +49,30 @@
     background-repeat: no-repeat;
     background-size: contain;
 
-    height: 1056px;
-    width: 1056px;
+    height: var(--welcomeHeight);
+    width: var(--welcomeWidth);
 }
 
 .welcomeSound{
-    background-image: url("../assets/SoundButton.svg");
+    background-image: url("../assets/SoundButtonFull.svg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 
-    height: 1056px;
-    width: 1056px;
+    height: var(--welcomeHeight);
+    width: var(--welcomeWidth);
 }
 
 .welcomeBlinds{
-    background-image: url("../assets/BlindsButton.svg");
+    background-image: url("../assets/BlindsFullButton.svg");
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 
-    height: 1056px;
-    width: 1056px;
+    height: var(--welcomeHeight);
+    width: var(--welcomeWidth);
 }
 
 .welcomeHelp{
