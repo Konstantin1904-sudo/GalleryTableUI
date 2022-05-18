@@ -14,12 +14,29 @@
 .sliderPage{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+
+    align-items: center;
 
     width: 100vw;
+    height: 1300px;
+
 }
 
-.wrapperLight{
+.nonSliderPage{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 1600px;
+
+    flex-direction: column;
+
+}
+
+.wrapperLightBackground{
     background-image: url("../assets/Light.png");
 
     background-position: center;
@@ -32,8 +49,20 @@
 
 }
 
-.buttonWrapper{
+.wrapperSoundBackground{
+    background-image: url("../assets/Video.png");
 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    /* making it 100% of the total width and height */ 
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttonWrapper{
     display: flex;
     flex-direction: column;
 
@@ -43,18 +72,11 @@
 
     justify-content: space-around;
 
-    background-color: pink;
-
-
-
-
+    padding-right: 300px;
 
 }
 
 .defaultButton{
-
-    
-
     border: none;
 
     background-color: transparent;
@@ -87,18 +109,33 @@
 
 }
 
-.backArrow{
+.arrow{
 
-    padding: 5px;
+    padding: 20px;
+
 
 }
 
 .sliderWrapper{
-    height: 800px;
+    height: 500px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    transform: scale(2);
+
+}
+
+.sliderIcon{
+    
+}
+
+.switchWrapper{
+
+    transform: scale(2);
+
+
 }

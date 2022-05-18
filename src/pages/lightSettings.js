@@ -1,20 +1,22 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {
+    arrow,
     buttonWrapper,
     sliderPage,
     defaultButton,
     buttonText,
     buttonIcon,
-    wrapperLight,
-    sliderWrapper
+    wrapperLightBackground,
+    sliderWrapper,
+    sliderIcon
 } from '../components/layout.module.css'
 
 import lowIcon from '../assets/low.svg'
 import mediumIcon from '../assets/medium.svg'
 import highIcon from '../assets/high.svg'
-import backArrow from '../assets/backArrow.svg'
-import brighntess from '../assets/Brightness.svg'
+import arrowToGoBack from '../assets/BackArrow.svg'
+import brightness from '../assets/Brightness.svg'
 
 import Slider from '@mui/material/Slider';
 
@@ -35,9 +37,9 @@ const theme = createTheme({
 
 const lightSettingsPage = () => {
     return(
-        <main className={wrapperLight}>
+        <main className={wrapperLightBackground}>
             <title>LightSettings</title>
-            <Link to="/"><img src = {backArrow} alt = "Load failed" width="35" height="120" className={backArrow}/></Link>
+            <Link to="/"><img src = {arrowToGoBack} alt = "Load failed"  height="100" className={arrow}/></Link>
 
             <div className={sliderPage}>
                 <div className={buttonWrapper}> 
@@ -63,7 +65,7 @@ const lightSettingsPage = () => {
                             defaultValue = {40}
                         />
                     </ThemeProvider>
-                    <img src = {brighntess} alt = "Load failed" width="150" height="150" className={buttonIcon}/>
+                    <img src = {brightness} alt = "Load failed" width="80"  className={sliderIcon}/>
                 </div>
             </div>
         </main>
