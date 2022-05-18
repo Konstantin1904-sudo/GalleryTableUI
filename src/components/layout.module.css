@@ -11,6 +11,75 @@
     src: url(https://www.brand-design.telekom.com/asset/font-0-teleneo/);
 }
 
+.welcomeWrapper{
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-content: space-between;
+
+    height: 100vh;
+    width: 100vw;
+
+    padding-top: 0;
+}
+
+.welcomeLight{
+    background-image: url("../assets/LightButton.svg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 1056px;
+    width: 1056px;
+}
+.welcomeVideo{
+    background-image: url("../assets/VideoButton.svg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 1056px;
+    width: 1056px;
+}
+
+.welcomeSound{
+    background-image: url("../assets/SoundButton.svg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 1056px;
+    width: 1056px;
+}
+
+.welcomeBlinds{
+    background-image: url("../assets/BlindsButton.svg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 1056px;
+    width: 1056px;
+}
+
+.welcomeHelp{
+    background-image: url("../assets/HelpButton.svg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    height: 200px;
+    width: 200px;
+}
+
 .sliderPage{
     display: flex;
     flex-direction: row;
