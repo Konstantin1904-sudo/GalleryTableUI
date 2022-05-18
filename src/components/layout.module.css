@@ -26,13 +26,14 @@
 .nonSliderPage{
     display: flex;
 
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 
     width: 100vw;
     height: 1600px;
 
     flex-direction: column;
+
 
 }
 
@@ -67,12 +68,13 @@
     flex-direction: column;
 
     width: 700px;
-    height: 1000px;
+    height: 800px;
     font-familiy: teleNeo;
 
     justify-content: space-around;
 
-    padding-right: 300px;
+
+
 
 }
 
@@ -127,6 +129,7 @@
 
     transform: scale(2);
 
+
 }
 
 .sliderIcon{
@@ -135,7 +138,31 @@
 
 .switchWrapper{
 
-    transform: scale(2);
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+.switchButton{
+    transform: scale(3);
+
+    padding-right: 20px;
+
+}
+
+.defaultText{
+    font-familiy: teleNeo;
+
+    font-size: 50px;
+
+    padding: 30px;
 
 
 }
