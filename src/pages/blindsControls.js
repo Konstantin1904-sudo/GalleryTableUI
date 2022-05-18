@@ -8,8 +8,6 @@ import {
     defaultButton,
     buttonIcon,
     wrapperBlindsBackground,
-    nonSliderPage,
-    buttonWrapper
 
 } from '../components/layout.module.css'
 
