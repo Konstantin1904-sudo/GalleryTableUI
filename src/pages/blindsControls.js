@@ -27,7 +27,7 @@ const blindControlPage = () => {
                 
                 <div className={blindsWrapper}> 
                         <button className={defaultButton}>
-                            <img src = {arrowUp} alt = "Load failed" width="300" height="300" className={buttonIcon}/>
+                            <img src = {arrowUp}x alt = "Load failed" width="300" height="300" className={buttonIcon}/>
                         </button>
                         <button className={defaultButton}>
                             <img src = {minus} alt = "Load failed" width="300" height="300" className={buttonIcon}/>

@@ -3,5 +3,8 @@ module.exports = {
     title: `meetingUI`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [`gatsby-theme-material-ui`],
+  plugins: [
+    `gatsby-theme-material-ui`,
+    `gatsby-plugin-modal-routing`
+  ],
 }

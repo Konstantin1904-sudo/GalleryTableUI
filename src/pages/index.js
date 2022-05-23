@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
-import {link} from '../components/layout.module.css'
-
+ 
 import {
   welcomeWrapper,
   welcomeLight,
@@ -21,7 +20,7 @@ const IndexPage = () => {
         <Link to='/soundSettings' className={welcomeSound}></Link>
         <Link to='/blindsControls' className={welcomeBlinds}></Link>
 
-        <Link to='/' className={welcomeHelp}></Link>
+        <Link to='/ModalHelp' className={welcomeHelp} state={{modal: true}}></Link>
       
 
     </main>
